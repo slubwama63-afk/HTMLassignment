@@ -39,7 +39,7 @@ html {
 
 
   img {
-    float: center;
+    float: right;
     margin: 0 0 10px 20px;
     width: 30%;       /* anpassar sig efter skärmen */
     max-width: 250px; /* blir aldrig större än 250px */
