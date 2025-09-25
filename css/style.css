@@ -12,9 +12,15 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #f5c9ee;
   font-size: 1em;
   line-height: 1.4;
+  background: #8f5a87;
+  .floatRight {float: right;margin: 0 0 10px 20px;width: 30%;       /* anpassar sig efter skärmen */
+    max-width: 250px; /* blir aldrig större än 250px */
+    height: auto;     /* håller proportionerna */
+  }
+
 }
 
 /*
@@ -25,7 +31,7 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #8f5a87;
   text-shadow: none;
 }
 
