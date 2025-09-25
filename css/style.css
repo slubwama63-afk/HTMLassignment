@@ -16,13 +16,35 @@ html {
   font-size: 1em;
   line-height: 1.4;
   background: #8f5a87;
-  .floatRight {
-    float: right;
+  .floatRight,
+  h1 {
+    font-family: "Baskerville",Serif,Times ;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  p {
+    font-family: "Baskerville", serif,Times;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  p2 {
+    font-family: "Baskerville", serif, Times;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+
+  img {
+    float: center;
     margin: 0 0 10px 20px;
     width: 30%;       /* anpassar sig efter skärmen */
     max-width: 250px; /* blir aldrig större än 250px */
     height: auto;     /* håller proportionerna */
-  }
+
 
 
 }
